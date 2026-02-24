@@ -1,0 +1,50 @@
+    1  help ls
+    2  help
+    3  help
+    4  ls
+    5  dir
+    6  dir'
+    7  dir
+    8  dir
+    9  dir
+   10  clear
+   11  cd git
+   12  git  config --global user.name "Kirill"
+   13  git config  --global  user.email  kirillmalarenko46@gmail.com
+   14  git config --list
+   15  git clon https://github.com/kirillmalarenko46-hash/HW_10.git
+   16  git clone https://github.com/kirillmalarenko46-hash/HW_10.git
+   17  git status
+   18  cd HW_10/
+   19  git status
+   20  touch text_ignore.txt
+   21  git status
+   22  git add text_ignore.txt
+   23  git status
+   24  echo  "text_ignore.txt" >> .gitignore
+   25  git status
+   26  git add text_ignore.gitignore
+   27  git rm --cached text_ignore.txt
+   28  git status
+   29  echo "text_ignore.txt" > .gitignore
+   30  git status
+   31  git add .gitignore
+   32  git commit -m "Додано зніни до файлу text_ignore.txt"
+   33  touch main_test.txt
+   34  git add main_test.txt
+   35  git commit -m "Додано файл main_test.txt"
+   36  git  checkout -b develop
+   37  touch develop_test.txt
+   38  git status
+   39  git add develop_test.txt
+   40  git  commit -m "Доданно develop_test.txt"
+   41  nano develop_test.txt
+   42  git status
+   43  git add develop_test.txt
+   44  git  commit -m "Доданно в develop_test.txt строку just a small change"
+   45  checkout  main
+   46  git checkout  main
+   47  git merge develop
+   48  git  status
+   49  git log --oneline --graph --all
+   50  history > command_list.csv
